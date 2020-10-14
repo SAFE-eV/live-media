@@ -1,0 +1,6 @@
+[org/gnome/desktop/background]
+picture-uri='file:///usr/local/share/backgrounds/background.jpg'
+picture-options='zoom'
+primary-color='000000'
+secondary-color='FFFFFF'
+

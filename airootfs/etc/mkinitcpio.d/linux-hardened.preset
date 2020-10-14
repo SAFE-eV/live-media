@@ -1,0 +1,11 @@
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+# mkinitcpio preset file for the 'linux-hardened' package on archiso
+
+PRESETS=('archiso')
+
+ALL_kver='/boot/vmlinuz-linux-hardened'
+ALL_config='/etc/mkinitcpio.conf'
+
+archiso_image="/boot/initramfs-linux-hardened.img"

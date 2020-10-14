@@ -1,0 +1,29 @@
+# base, microcodes, kernel, mkinitcpio, syslinux
+base
+intel-ucode
+amd-ucode
+linux-hardened
+linux-firmware
+mkinitcpio
+mkinitcpio-archiso
+syslinux
+# desktop environment
+gdm
+gnome-shell
+gnome-control-center
+# networking
+networkmanager
+network-manager-applet
+# video and input drivers
+xorg-drivers
+xf86-input-synaptics
+# java, file and web browser
+jre-openjdk
+nautilus
+firefox
+firefox-i18n-de
+# file system support (FAT, exFAT, NTFS)
+dosfstools
+exfatprogs
+ntfs-3g
+
