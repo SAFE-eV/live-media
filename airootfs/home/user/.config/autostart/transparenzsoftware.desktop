@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Version=1.0.0
+Version=1.1.0
 Name=Transparenzsoftware
 Terminal=false
 Exec=/usr/bin/java -jar /opt/transparenzsoftware.jar
