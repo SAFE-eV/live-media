@@ -78,7 +78,7 @@ $ run_archiso -i out/transparenzsoftware-v1.1.0_20XX.XX.XX-x86_64.iso
 Add `-u` flag to test UEFI boot:
 
 ```
-$ run_archiso -u -i out/transparenzsoftware-vX.X.X_XXXX.XX.XX-x86_64.iso
+$ run_archiso -u -i out/transparenzsoftware-v1.1.0_20XX.XX.XX-x86_64.iso
 ```
 
 # TODO
