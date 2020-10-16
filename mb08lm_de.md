@@ -85,7 +85,7 @@ Letzteres ist Bestandteil der OpenSSL-Bibliothek und steht auch für andere Betr
 
 Der Dateiname _transparenzsoftware.iso_ ist bei Abweichung entsprechend anzupassen.
 
-## Zusätzliche nennenswerten Maßnahmen
+## Zusätzliche nennenswerte Maßnahmen
 
 Die Transparenzsoftware kann zur Laufzeit über sich selbst einen SHA256-Hash-Wert bilden. Dies ist verfügbar über den _Über_-Dialog der Software.
 
