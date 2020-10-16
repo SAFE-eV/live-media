@@ -80,9 +80,3 @@ Add `-u` flag to test UEFI boot:
 ```
 $ run_archiso -u -i out/transparenzsoftware-v1.1.0_20XX.XX.XX-x86_64.iso
 ```
-
-# TODO
-
-* UEFI boot (hybrid ISO)
-* different browser?
-* different desktop environment?
