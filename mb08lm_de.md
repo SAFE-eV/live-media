@@ -56,6 +56,7 @@ Externe Datenspeicher werden mit der Mount-Option `noexec` in das System eingeha
 Ein Root-Login ist nicht vorgesehen.
 
 > **4. Prüfbarkeit und Nachweisbarkeit**
+>
 > 1. Über das Live-Medium als Datenträger muss ein kryptographischer Hash gebildet werden.
 > 2. Der Hashwert muss für den Verwender überprüfbar sein.
 
