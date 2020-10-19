@@ -17,6 +17,7 @@ Dieses Dokument listet die Anforderungen des [Merkblatts MB08][1] der PTP sowie 
 > **1. Eigenschaften der Hardware**
 >
 > Beim Einlegen eines Live-Mediums in einen Rechner wird das gesamte Betriebssystem mit der rechtlich relevanten Software in den Arbeitsspeicher (RAM) des Host-Rechners geladen. Es sind keine speziellen Absicherungsmaßnahmen auf dem Host-Rechner zum Betrieb des Live-Mediums notwendig.
+>
 > 1. Das Live-Medium muss dauerhaft schreibgeschützt sein. 
 
 Das Live-Medium wird als ISO-Datei und zugehörigem Hash-Wert einer kryptografisch sicheren Streuwertfunktion (SHA256) angeboten, um beispielsweise von einem externen USB-Datenspeicher oder einer DVD als startbares Live-System eingesetzt zu werden.
@@ -28,6 +29,7 @@ Das Live-Medium stellt ein reines Live-System bereit. Teile des Live-Systems lau
 > **2. Bootvorgang und Laden der rechtlich relevanten Software**
 >
 > Die Eigenschaft der Reproduzierbarkeit des Live-Systems auf einem anderen Host-Rechner ersetzt den Vertrauensanker von dauerhaft installierten Betriebssystemen.
+>
 > 1. Der Bootloader des Live-Mediums muss so konfiguriert sein, dass am Ende des Bootvorgangs nur das Betriebssystem mit der rechtlich relevanten Software in den Arbeitsspeicher des Host-Rechners geladen wird. 
 
 Grundsätzlich wurde eine minimale Auswahl an Softwarepaketen getroffen.
