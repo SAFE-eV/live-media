@@ -44,7 +44,7 @@ Das Live-Medium startet ausschließlich von dem eingesetzten tatsächlichen Medi
 
 Bootloader, Microcode-Updates, Linux-Kernel und Firmware (für ggf. spezifische eingesetzte Hardware auf dem Host-System) werden zwingend benötigt, um das Starten des Live-Systems überhaupt zu ermöglichen.
 
-Die Transparenzsoftware ist eine Java-Anwendung mit grafischer Benutzerschnittstelle. Daher wird für den bestimmungsgemäßen Gebrauch zusätzlich zur Transparenzsoftware eine minimale Desktop-Umgebung (XWayland, Mutter, GNOME-Shell) und eine Java-Laufzeitumgebung (JRE-OpenJDK) zur Verfügung gestellt. Um den Anwender den Zugang zu den zu verifizierenden Daten zu ermöglichen sind ebenfalls ein Web-Browser (Firefox), minimale Netzwerkfunktionalitäten (NetworkManager) und ein Datei-Browser (Nautilus) sowie gängige Dateisystemunterstützung für externe Speichermedien (FAT, exFAT, NTFS) enthalten.
+Die Transparenzsoftware ist eine Java-Anwendung mit grafischer Benutzerschnittstelle. Daher wird für den bestimmungsgemäßen Gebrauch zusätzlich zur Transparenzsoftware eine minimale Desktop-Umgebung (XWayland, Mutter, GNOME-Shell) und eine Java-Laufzeitumgebung (JRE-OpenJDK) zur Verfügung gestellt. Um den Anwender den Zugang zu den zu verifizierenden Daten zu ermöglichen sind ebenfalls ein Web-Browser (Firefox), ein Texteditor (gedit), minimale Netzwerkfunktionalitäten (NetworkManager) und ein Datei-Browser (Nautilus) sowie gängige Dateisystemunterstützung für externe Speichermedien (FAT, exFAT, NTFS) enthalten.
 
 > **3. Schutz in Verwendung**
 >
@@ -55,7 +55,9 @@ sein.
 
 Externe Datenspeicher werden mit der Mount-Option `noexec` in das System eingehangen. Der im Live-System bereitgestellte Benutzer hat nicht die erforderlichen Rechte, um dies zu ändern.
 
-Ein Root-Login ist nicht vorgesehen.
+Ein Root-Login ist nicht vorgesehen. Dieser verfügt weder über eine Login-Shell noch über ein Passwort.
+
+Aufgrund des mitgelieferten Hash-Wertes es ein nachträgliches Verändern des Live-Mediums weitestgehend ausgeschlossen. Dies setzt allerdings eine manuelle Überprüfung voraus.
 
 > **4. Prüfbarkeit und Nachweisbarkeit**
 >

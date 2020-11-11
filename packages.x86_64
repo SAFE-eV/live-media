@@ -17,8 +17,9 @@ network-manager-applet
 # video and input drivers
 xorg-drivers
 xf86-input-synaptics
-# java, file and web browser
+# java, text editor, file and web browser
 jre-openjdk
+gedit
 nautilus
 firefox
 firefox-i18n-de
